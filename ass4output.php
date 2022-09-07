@@ -6,6 +6,7 @@
  * Date: April 6, 2022
  */
 
+     // Import Database Credentials
     require("connect.php");
 
     $errors="";
@@ -15,7 +16,7 @@
         // 1. Open connection with db
         $dbConn = new PDO ("mysql:host=$hostname;dbname=$dbname", "$user", "$password");
 
-        // If it a delete has been requested, delete the item first.
+        // If a delete button has been requested, delete the item from the table.
         if($_SERVER['REQUEST_METHOD'] == "POST"){
           if (isset($_POST['delete'])){
             $email = $_POST['delete'];
@@ -101,8 +102,8 @@
           </form>
         </table>
       </article>
-    </section><!-- main  -->
-  </div><!--  container -->
+    </section>
+  </div>
 </body>
 
 </html>

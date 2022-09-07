@@ -6,6 +6,8 @@
  * Date: April 6, 2022
  */
 
+
+    // Import Database Credentials
     require("connect.php");
 
     $errors="";
