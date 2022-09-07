@@ -1,0 +1,123 @@
+/**
+ * Name: Jerome Acosta
+ * File Name: contacts.sql
+ * Course Code: SYST10199
+ * Date: April 6, 2022
+ */
+
+body {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+header {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+nav {
+    width: 200px;
+    float: left;
+}
+
+.main {
+    width: 800px;
+    float: left;
+}
+
+nav ul {
+    width: 180px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+nav li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #009879;
+    color: white;
+}
+
+footer section p {
+    text-align: center;
+    clear: both;
+}
+
+#errors {
+    color: red;
+}
+
+.asterisk {
+    color: red;
+}
+
+tr > td:last-child {
+    text-align: center;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 5px 5px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+form > div {
+    padding: 5px;
+}
+
+input[type="text"] {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+    border: none;
+    background-color: #009879;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 3px 8px;
+}
+button:active,
+input[type="submit"]:active,
+input[type="reset"]:active {
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.45);
+}
