@@ -23,7 +23,7 @@
             $command = "DELETE FROM contacts WHERE email_address='$email'";
             $stmt = $dbConn->prepare($command);
             $execOK = $stmt->execute();
-            $errors=$email;
+            $errors .= "Successfully deleted '$email'.";
 
             if (!$execOK){
               $errors .= "Error executing query.";
